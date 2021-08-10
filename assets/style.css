@@ -1,0 +1,62 @@
+:root {
+    --main-orange: rgb(192, 125, 0);
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    background-color: rgb(32, 32, 32);
+    /* border: 1px solid red; */
+}
+
+.name-logo {
+    padding: 8px 5px 8px 50px;
+    font-size: 150%;
+    background: var(--main-orange)
+}
+
+.nav-bar-ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+.nav-bar-ul li {
+    font-size: 110%;
+    padding: 15px;
+}
+
+.nav-bar-ul a {
+    color:var(--main-orange);
+    border-bottom: 3px solid var(--main-orange);
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.hero {
+    /* border: 1px solid red; */
+}
+
+.hero {
+    background-image: url(../assets/images/hero.jpg);
+    height: 230px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+main {
+    position: relative;
+    height: 1000px;
+    border: 1px solid red;
+}
