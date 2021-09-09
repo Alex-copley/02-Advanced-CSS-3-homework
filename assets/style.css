@@ -165,15 +165,15 @@ main {
 
 .work-1 img {
     position: absolute;
-    left: -300px;
-    height: 500px;
-    width: 900px;
+    left: -5px;
+    height: 300px;
+    width: 650px;
 }
 
 .work-content-1 {
     position: absolute;
     padding: 10px;
-    bottom: 60px;
+    bottom: 200px;
     background: var(--orange);
 
 }
