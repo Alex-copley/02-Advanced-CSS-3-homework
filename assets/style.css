@@ -165,9 +165,9 @@ main {
 
 .work-1 img {
     position: absolute;
-    left: -5px;
     height: 300px;
     width: 650px;
+    left: -70px
 }
 
 .work-content-1 {
@@ -175,7 +175,11 @@ main {
     padding: 10px;
     bottom: 200px;
     background: var(--orange);
+}
 
+.work-content-1 a {
+    text-decoration: none;
+    color: var(--darkgrey)
 }
 
 .work-content-right {
@@ -201,6 +205,12 @@ main {
     justify-content: center;
 }
 
+.img-right-div a {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
 .work-right img {
     bottom: -230px;
     position: absolute;
@@ -213,6 +223,11 @@ main {
     padding: 10px;
     bottom: 20px;
     background: var(--orange);
+}
+
+.work-content a {
+    text-decoration: none;
+    color: var(--darkgrey)
 }
 
 /* EVERYTHING INSIDE OF WORK-CONTAINER */
